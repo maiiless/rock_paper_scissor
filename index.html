@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock paper scissor game</h1>
+        <h3>Let's start!</h3>
+        <div class="justify-content-between">
+            <input type="text" id="name_user" class="form-control" placeholder="What's your name?">
+            <button type="button" onclick="startGame()" class="btn btn-primary">Start</button>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="card text-white bg-dark mb-3 participant" style="max-width: 18rem;">
+                    <div class="card-header">Participant #1</div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="participant">New Participant</h5>
+                      <h5 class="card-title" id="points_a">0</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div id="result" class="fs-4 result"></div>
+            </div>
+            <div class="col-4">
+                <div class="card text-white bg-info mb-3 participant" style="max-width: 18rem;">
+                    <div class="card-header">Participant #2</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Susy Bot</h5>
+                      <h5 class="card-title" id="points_b">0</h5>
+                    </div> 
+                </div>
+            </div>
+        <label class="text_select" for="">Select an option</label>
+        <div>
+            <img src="img/rock.png" alt="" onclick="play('rock')">
+            <img src="img/paper.png" alt="" onclick="play('paper')">
+            <img src="img/scissors.png" alt="" onclick="play('scissors')"> 
+        </div>
+         
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>

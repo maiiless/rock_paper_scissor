@@ -1,0 +1,32 @@
+.container {
+
+    margin-top: 2%;
+    text-align: center;  
+    
+}
+
+h1 {
+    color : #515A5A;
+}
+
+h3, label {
+    color : #616A6B;
+}
+img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.participant, .result {
+    margin: 50px;
+}
+
+.text_select {
+    margin-bottom: 20px;
+}
+
+.user {
+    width: 300px;
+}
