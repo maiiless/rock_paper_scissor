@@ -1,8 +1,6 @@
 .container {
-
     margin-top: 2%;
-    text-align: center;  
-    
+    text-align: center;    
 }
 
 h1 {
@@ -29,4 +27,8 @@ img {
 
 .user {
     width: 300px;
+}
+
+.form-control {
+    margin-bottom: 10px;
 }
